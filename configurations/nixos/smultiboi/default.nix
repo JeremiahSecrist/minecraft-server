@@ -10,5 +10,7 @@ in
   imports = [
     self.nixosModules.default
     ./configuration.nix
+    ./hardware-configuration.nix
+    ./disko.nix
   ];
 }
