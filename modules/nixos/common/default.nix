@@ -6,6 +6,4 @@
     ++ [
       flake.inputs.disko.nixosModules.default
     ];
-
-  services.avahi.enable = true;
 }
