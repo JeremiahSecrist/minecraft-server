@@ -43,6 +43,7 @@ in
       persistentKeys = true;
       openMulticastPort = true;
       settings = {
+        inherit (cfg) AllowedPublicKeys;
         Peers = [
           "tls://ygg.yt:443"
           "tls://ygg.jjolly.dev:3443"
@@ -57,7 +58,6 @@ in
             Priority = 0;
           }
         ];
-        AllowedPublicKeys = [ ];
         IfName = "ygg0";
         IfMTU = 65535;
         NodeInfoPrivacy = false;
