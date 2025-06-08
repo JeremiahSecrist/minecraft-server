@@ -27,6 +27,7 @@
   networking.yggdrasil.AllowedPublicKeys = [
     "d0e265fcf663451ae9bc048dc1297749819ce9d48042a986f2866c15a779a074"
   ];
+  virtualisation.incus.agent.enable = true;
   nixpkgs.hostPlatform = "x86_64-linux";
   networking.hostName = "smultiboi";
 
