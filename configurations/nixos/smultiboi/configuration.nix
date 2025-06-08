@@ -21,6 +21,7 @@
   services.tailscale = {
     enable = true;
   };
+  mine.knorr.enable = true;
   nixpkgs.hostPlatform = "x86_64-linux";
   networking.hostName = "smultiboi";
 

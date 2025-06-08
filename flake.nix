@@ -20,6 +20,10 @@
     nix-index-database.url = "github:nix-community/nix-index-database";
     nix-index-database.inputs.nixpkgs.follows = "nixpkgs";
     nixos-anywhere.url = "github:nix-community/nixos-anywhere/1.10.0";
+    nixos-generators = {
+      url = "github:nix-community/nixos-generators";
+      inputs.nixpkgs.follows = "nixpkgs";
+    };
     sops-nix.url = "https://flakehub.com/f/Mic92/sops-nix/0.1.887";
   };
 
